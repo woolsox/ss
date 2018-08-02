@@ -24,8 +24,8 @@ If you haven't installed ruby, bundler, and postgresql, do that first. Then, do 
 set up this app:
 
 ```sh
-git clone <REPO_URL>
-cd <APP_DIR>
+git clone git@github.com:woolsox/ss.git
+cd ss
 bundle install
 cp config/secrets.example.yml config/secrets.yml
 bundle exec rails db:setup
