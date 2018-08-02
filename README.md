@@ -1,7 +1,5 @@
 # ss
 
-*TODO: Project description*
-
 ## Table of Contents
 
 - [Stack](#stack)
