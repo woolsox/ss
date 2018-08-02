@@ -2,9 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: .1rem solid black;
+  box-shadow: 0rem .05rem .1rem grey;
   max-height: 5rem;
   width: 100%;
+  margin-bottom: 4rem;
 }
 
 .header-logo {
@@ -16,6 +18,7 @@
 
 .header-title {
   padding: .5rem;
+  color: #38678b;
   font-size: 2rem;
 }
 
@@ -27,6 +30,8 @@
 }
 
 .header-nav--link {
+ color: #38678b;
+ font-size: .8rem;
  margin: 1rem;
  padding: .5rem;
 }
