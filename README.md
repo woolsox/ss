@@ -1,4 +1,4 @@
-# Ss
+# ss
 
 *TODO: Project description*
 
