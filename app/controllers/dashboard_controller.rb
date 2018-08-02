@@ -1,5 +1,5 @@
 class DashboardController < ApplicationController
   def show
-    render `dashboard.html.erb`
+    render `show`
   end
 end
