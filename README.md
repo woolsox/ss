@@ -1,6 +1,4 @@
-# Ss
-
-*TODO: Project description*
+# ss
 
 ## Table of Contents
 
