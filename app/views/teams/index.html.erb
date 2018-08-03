@@ -1,3 +1,10 @@
-<%= current_user.teams.each do |name| %>
-  name.name
-<% end %>
+<%= stylesheet_link_tag "teams.css" %>
+<%= render "partials/header" %>
+
+<div class="team-wrapper">
+  <% current_user.teams.each do |team| %>
+  <div class="team-icon">
+    <a href="/teams" class="team-link"><%= team.name %></a>
+  </div>
+  <% end %>
+</div>

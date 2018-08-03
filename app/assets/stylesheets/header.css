@@ -16,10 +16,11 @@
   width: 10%;
 }
 
-.header-title {
+.header-title:link {
   padding: .5rem;
   color: #38678b;
   font-size: 2rem;
+  text-decoration: none;
 }
 
 .header-nav {
