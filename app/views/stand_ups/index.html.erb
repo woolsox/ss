@@ -1,0 +1,10 @@
+<%= stylesheet_link_tag "stand_ups.css" %>
+<%= render "partials/header" %>
+
+<div class="stand-up-wrapper">
+  <% @stand_ups do |sup| %>
+  <div class="stand-up-icon">
+    <a href="/teams" class="stand-up-link"><%= sup.today %></a>
+  </div>
+  <% end %>
+</div>

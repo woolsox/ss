@@ -11,4 +11,6 @@
 
 class Team < ApplicationRecord
   belongs_to :user
+  has_many :members, dependent: :destroy
+  has_many :stand_ups, dependent: :destroy
 end

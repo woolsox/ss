@@ -1,0 +1,23 @@
+.stand-up-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.stand-up-icon {
+  margin: 1.5rem;
+  padding: 3rem 4rem;
+  border: .1rem solid black;
+  border-radius: .35rem;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0rem .05rem .1rem grey;
+}
+
+.stand-up-icon:hover {
+  background-color: #f9f9f9;
+}
+
+.stand-up-link:link {
+  text-decoration: none;
+}
